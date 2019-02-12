@@ -13,13 +13,8 @@ body {
     width: 100%;
     height: 100%;
 }
-.sidebar {
-    background-color: green;
-    width: 20%;
-    height: 100%;
-}
+
 .center_stage {
-    background-color: red;
     width: 100%;
     height: 100%;
 }

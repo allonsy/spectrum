@@ -1,0 +1,43 @@
+.sidebar {
+    box-sizing: border-box;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid grey;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: rgb(235, 235, 235)
+}
+
+
+.sidebar_text {
+    text-align: center;
+}
+
+.sidebar_generate_button, .sidebar_random_button {
+    background-color: blue;
+    margin:10px;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid black;
+}
+
+.sidebar_generate_button:hover, .sidebar_random_button:hover {
+    border-color: green;
+}
+
+
+.sidebar > hr {
+    width: 30px;
+}
+
+.sidebar_seed_input {
+    border-radius: 5px;
+}
+.sidebar > ul > li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
